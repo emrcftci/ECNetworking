@@ -1,3 +1,3 @@
 # ECNetworking
 
-A description of this package.
+Stand-alone networking layer.
