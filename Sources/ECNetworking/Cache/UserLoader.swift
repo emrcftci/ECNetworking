@@ -5,6 +5,7 @@
 //  Created by Emre Çiftçi on 22.12.2021.
 //
 
+import Foundation
 import SwiftyUserDefaults
 
 public final class UserLoader {

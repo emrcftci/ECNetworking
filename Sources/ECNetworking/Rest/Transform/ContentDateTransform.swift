@@ -5,6 +5,7 @@
 //  Created by Emre Çiftçi on 28.12.2021.
 //
 
+import Foundation
 import ObjectMapper
 
 public class ContentDateTransform: TransformType {

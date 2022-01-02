@@ -5,6 +5,7 @@
 //  Created by Emre Çiftçi on 29.12.2021.
 //
 
+import Foundation
 import ObjectMapper
 
 public class HTMLDescriptionTransform: TransformType {

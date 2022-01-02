@@ -25,6 +25,7 @@
 //  THE SOFTWARE.
 
 import Alamofire
+import Foundation
 import ObjectMapper
 
 public extension Alamofire.DataRequest {

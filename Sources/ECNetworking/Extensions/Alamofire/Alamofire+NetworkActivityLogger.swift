@@ -25,6 +25,7 @@
 //  SOFTWARE.
 
 import Alamofire
+import Foundation
 
 // swiftlint:disable cyclomatic_complexity
 public final class AlamofireNetworkActivityLogger {

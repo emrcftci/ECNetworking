@@ -5,6 +5,7 @@
 //  Created by Emre Çiftçi on 28.03.2021.
 //
 
+import Foundation
 import ObjectMapper
 
 public struct APIResponseLoader {

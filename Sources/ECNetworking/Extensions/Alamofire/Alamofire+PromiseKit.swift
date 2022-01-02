@@ -7,6 +7,7 @@
 //
 
 import Alamofire
+import Foundation
 import ObjectMapper
 import PromiseKit
 
