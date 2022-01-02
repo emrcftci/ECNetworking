@@ -16,6 +16,7 @@ let package = Package(
     dependencies: [
       .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", .upToNextMajor(from: "4.1.0")),
       .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0")),
+      .package(url: "https://github.com/Alamofire/AlamofireImage.git", .upToNextMajor(from: "4.2.0")),
       .package(url: "https://github.com/mxcl/PromiseKit.git", .upToNextMajor(from: "6.13.3")),
       .package(url: "https://github.com/sunshinejr/SwiftyUserDefaults.git", .upToNextMajor(from: "4.0.0")),
     ],
@@ -25,6 +26,7 @@ let package = Package(
             dependencies: [
               "ObjectMapper",
               "Alamofire",
+              "AlamofireImage",
               "PromiseKit",
               "SwiftyUserDefaults",
             ]),
