@@ -15,8 +15,8 @@ public struct APIError: LocalizedError, CustomNSError, ImmutableMappable {
   public let description: String
 
   public init(map: Map) throws {
-    code = try map.value("errorCode")
-    description = try map.value("errorMessage")
+    code = try map.value("errorCode", default: "-1")
+    description = try map.value("errorMessage", default: "Something went wrong!")
   }
 
   public func mapping(map: Map) {
