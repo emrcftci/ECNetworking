@@ -11,12 +11,12 @@ import ObjectMapper
 
 public struct APIError: LocalizedError, CustomNSError, ImmutableMappable {
 
-  public let code: String
-  public let description: String
+  public let code: String?
+  public let description: String?
 
   public init(map: Map) throws {
-    code = try map.value("errorCode")
-    description = try map.value("errorMessage")
+    code = try? map.value("errorCode")
+    description = try? map.value("errorMessage")
   }
 
   public func mapping(map: Map) {
