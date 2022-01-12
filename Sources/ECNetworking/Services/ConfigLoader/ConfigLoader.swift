@@ -12,7 +12,7 @@ public final class ConfigLoader {
   public enum Version: String, CustomStringConvertible {
     case development = "Development"
     case qa = "QA"
-    case preprod = "PREPROD"
+    case preprod = "Preprod"
     case production = "Production"
 
     public var description: String {
